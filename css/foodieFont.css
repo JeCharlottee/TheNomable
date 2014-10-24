@@ -1,0 +1,625 @@
+@font-face {
+	font-family: 'FoodieFont';
+	src:url('fonts/FoodieFont.eot?-m1cyh9');
+	src:url('fonts/FoodieFont.eot?#iefix-m1cyh9') format('embedded-opentype'),
+		url('fonts/FoodieFont.woff?-m1cyh9') format('woff'),
+		url('fonts/FoodieFont.ttf?-m1cyh9') format('truetype'),
+		url('fonts/FoodieFont.svg?-m1cyh9#FoodieFont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ico {
+	font-family: 'FoodieFont';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.foodie-egg:before {
+	content: "\e600";
+}
+.foodie-steak:before {
+	content: "\e601";
+}
+.foodie-steak-alt:before {
+	content: "\e602";
+}
+.foodie-salami:before {
+	content: "\e603";
+}
+.foodie-salami-alt:before {
+	content: "\e604";
+}
+.foodie-sausage:before {
+	content: "\e605";
+}
+.foodie-weener:before {
+	content: "\e606";
+}
+.foodie-sausage-alt:before {
+	content: "\e607";
+}
+.foodie-bean:before {
+	content: "\e608";
+}
+.foodie-burger:before {
+	content: "\e609";
+}
+.foodie-baguette:before {
+	content: "\e60a";
+}
+.foodie-breadstick:before {
+	content: "\e60b";
+}
+.foodie-loaf:before {
+	content: "\e60c";
+}
+.foodie-blob:before {
+	content: "\e60d";
+}
+.foodie-croissant:before {
+	content: "\e60e";
+}
+.foodie-bagel:before {
+	content: "\e60f";
+}
+.foodie-bagel-alt:before {
+	content: "\e610";
+}
+.foodie-pretzel:before {
+	content: "\e611";
+}
+.foodie-dot:before {
+	content: "\e612";
+}
+.foodie-candy:before {
+	content: "\e613";
+}
+.foodie-candy-alt:before {
+	content: "\e614";
+}
+.foodie-baggie:before {
+	content: "\e615";
+}
+.foodie-sucker:before {
+	content: "\e616";
+}
+.foodie-candy-cane:before {
+	content: "\e617";
+}
+.foodie-ice-block:before {
+	content: "\e618";
+}
+.foodie-ice-block-alt:before {
+	content: "\e619";
+}
+.foodie-waffle-cone:before {
+	content: "\e61a";
+}
+.foodie-ice-scream:before {
+	content: "\e61b";
+}
+.foodie-icorn:before {
+	content: "\e61c";
+}
+.foodie-drink:before {
+	content: "\e61d";
+}
+.foodie-soda:before {
+	content: "\e61e";
+}
+.foodie-kabab:before {
+	content: "\e61f";
+}
+.foodie-bone:before {
+	content: "\e620";
+}
+.foodie-asparagus:before {
+	content: "\e621";
+}
+.foodie-fizz:before {
+	content: "\e622";
+}
+.foodie-candy-alt-2:before {
+	content: "\e623";
+}
+.foodie-inject:before {
+	content: "\e624";
+}
+.foodie-beans:before {
+	content: "\e625";
+}
+.foodie-cook-book:before {
+	content: "\e626";
+}
+.foodie-hat:before {
+	content: "\e627";
+}
+.foodie-platter:before {
+	content: "\e628";
+}
+.foodie-mitts:before {
+	content: "\e629";
+}
+.foodie-can:before {
+	content: "\e62a";
+}
+.foodie-stock-pot:before {
+	content: "\e62b";
+}
+.foodie-soup-pot:before {
+	content: "\e62c";
+}
+.foodie-blender:before {
+	content: "\e62d";
+}
+.foodie-mixer:before {
+	content: "\e62e";
+}
+.foodie-scales:before {
+	content: "\e62f";
+}
+.foodie-microwave-oven:before {
+	content: "\e630";
+}
+.foodie-microwave:before {
+	content: "\e631";
+}
+.foodie-hand-mixer:before {
+	content: "\e632";
+}
+.foodie-fridge:before {
+	content: "\e633";
+}
+.foodie-toaster:before {
+	content: "\e634";
+}
+.foodie-appliances:before {
+	content: "\e635";
+}
+.foodie-coffee:before {
+	content: "\e636";
+}
+.foodie-pot:before {
+	content: "\e637";
+}
+.foodie-rice-dish:before {
+	content: "\e638";
+}
+.foodie-rice-dish-alt:before {
+	content: "\e639";
+}
+.foodie-tea-pot:before {
+	content: "\e63a";
+}
+.foodie-tea-pot-alt:before {
+	content: "\e63b";
+}
+.foodie-milk:before {
+	content: "\e63c";
+}
+.foodie-beer:before {
+	content: "\e63d";
+}
+.foodie-cocktails:before {
+	content: "\e63e";
+}
+.foodie-wine:before {
+	content: "\e63f";
+}
+.foodie-wines:before {
+	content: "\e640";
+}
+.foodie-utensils:before {
+	content: "\e641";
+}
+.foodie-spoon:before {
+	content: "\e642";
+}
+.foodie-sauce:before {
+	content: "\e643";
+}
+.foodie-bottle:before {
+	content: "\e644";
+}
+.foodie-can-alt:before {
+	content: "\e645";
+}
+.foodie-wine-glass:before {
+	content: "\e646";
+}
+.foodie-drinks:before {
+	content: "\e647";
+}
+.foodie-wine-alt:before {
+	content: "\e648";
+}
+.foodie-bubbles:before {
+	content: "\e649";
+}
+.foodie-cocktail:before {
+	content: "\e64a";
+}
+.foodie-rice:before {
+	content: "\e64b";
+}
+.foodie-steam:before {
+	content: "\e64c";
+}
+.foodie-cooking:before {
+	content: "\e64d";
+}
+.foodie-cocktail-alt:before {
+	content: "\e64e";
+}
+.foodie-foodie-2-13:before {
+	content: "\e64f";
+}
+.foodie-soda-alt:before {
+	content: "\e650";
+}
+.foodie-cocktail-glass:before {
+	content: "\e651";
+}
+.foodie-shaken:before {
+	content: "\e652";
+}
+.foodie-shaken-alt:before {
+	content: "\e653";
+}
+.foodie-cocktail-alt-3:before {
+	content: "\e654";
+}
+.foodie-bento:before {
+	content: "\e655";
+}
+.foodie-ice-block-alt-2:before {
+	content: "\e656";
+}
+.foodie-chicken:before {
+	content: "\e657";
+}
+.foodie-hamburger:before {
+	content: "\e658";
+}
+.foodie-pizza-slice:before {
+	content: "\e659";
+}
+.foodie-pizza-alt:before {
+	content: "\e65a";
+}
+.foodie-hot-dog:before {
+	content: "\e65b";
+}
+.foodie-fizzy:before {
+	content: "\e65c";
+}
+.foodie-pop-corn:before {
+	content: "\e65d";
+}
+.foodie-ice-cream-alt:before {
+	content: "\e65e";
+}
+.foodie-chocolate:before {
+	content: "\e65f";
+}
+.foodie-honey:before {
+	content: "\e660";
+}
+.foodie-pastry:before {
+	content: "\e661";
+}
+.foodie-pastry-alt:before {
+	content: "\e662";
+}
+.foodie-drum-stick:before {
+	content: "\e663";
+}
+.foodie-fish:before {
+	content: "\e664";
+}
+.foodie-chilli:before {
+	content: "\e665";
+}
+.foodie-steak-cooking:before {
+	content: "\e666";
+}
+.foodie-bread-cut:before {
+	content: "\e667";
+}
+.foodie-cherries:before {
+	content: "\e668";
+}
+.foodie-berries:before {
+	content: "\e669";
+}
+.foodie-drinkie:before {
+	content: "\e66a";
+}
+.foodie-kitchen:before {
+	content: "\e66b";
+}
+.foodie-date:before {
+	content: "\e66c";
+}
+.foodie-pie:before {
+	content: "\e66d";
+}
+.foodie-shell:before {
+	content: "\e66e";
+}
+.foodie-cake:before {
+	content: "\e66f";
+}
+.foodie-cherries-alt:before {
+	content: "\e670";
+}
+.foodie-candy-cane-alt:before {
+	content: "\e671";
+}
+.foodie-recipe:before {
+	content: "\e672";
+}
+.foodie-hat-alt:before {
+	content: "\e673";
+}
+.foodie-small-drink:before {
+	content: "\e674";
+}
+.foodie-corn:before {
+	content: "\e675";
+}
+.foodie-meal:before {
+	content: "\e676";
+}
+.foodie-doughnut:before {
+	content: "\e677";
+}
+.foodie-bite:before {
+	content: "\e678";
+}
+.foodie-bbq:before {
+	content: "\e679";
+}
+.foodie-scoop:before {
+	content: "\e67a";
+}
+.foodie-look:before {
+	content: "\e67b";
+}
+.foodie-small:before {
+	content: "\e67c";
+}
+.foodie-lollies:before {
+	content: "\e67d";
+}
+.foodie-open-can:before {
+	content: "\e67e";
+}
+.foodie-eat-out:before {
+	content: "\e67f";
+}
+.foodie-plate:before {
+	content: "\e680";
+}
+.foodie-dining:before {
+	content: "\e681";
+}
+.foodie-knife:before {
+	content: "\e682";
+}
+.foodie-spatula:before {
+	content: "\e683";
+}
+.foodie-spoon-alt:before {
+	content: "\e684";
+}
+.foodie-fork:before {
+	content: "\e685";
+}
+.foodie-broccoli:before {
+	content: "\e686";
+}
+.foodie-mint:before {
+	content: "\e687";
+}
+.foodie-herb:before {
+	content: "\e688";
+}
+.foodie-herb-alt:before {
+	content: "\e689";
+}
+.foodie-cabbage:before {
+	content: "\e68a";
+}
+.foodie-foodie-07:before {
+	content: "\e68b";
+}
+.foodie-eggplant:before {
+	content: "\e68c";
+}
+.foodie-corn-alt:before {
+	content: "\e68d";
+}
+.foodie-spicy:before {
+	content: "\e68e";
+}
+.foodie-pepper:before {
+	content: "\e68f";
+}
+.foodie-bean-alt-2:before {
+	content: "\e690";
+}
+.foodie-berry:before {
+	content: "\e691";
+}
+.foodie-berry-alt:before {
+	content: "\e692";
+}
+.foodie-carrot:before {
+	content: "\e693";
+}
+.foodie-thing:before {
+	content: "\e694";
+}
+.foodie-raddish:before {
+	content: "\e695";
+}
+.foodie-meat-cut:before {
+	content: "\e696";
+}
+.foodie-chicken-drum:before {
+	content: "\e697";
+}
+.foodie-thing-alt:before {
+	content: "\e698";
+}
+.foodie-chicken-whole:before {
+	content: "\e699";
+}
+.foodie-tomato:before {
+	content: "\e69a";
+}
+.foodie-thing-alt-2:before {
+	content: "\e69b";
+}
+.foodie-apple-slice:before {
+	content: "\e69c";
+}
+.foodie-apple:before {
+	content: "\e69d";
+}
+.foodie-onion:before {
+	content: "\e69e";
+}
+.foodie-slice:before {
+	content: "\e69f";
+}
+.foodie-thing-alt-3:before {
+	content: "\e6a0";
+}
+.foodie-raspberry:before {
+	content: "\e6a1";
+}
+.foodie-plum:before {
+	content: "\e6a2";
+}
+.foodie-strawberry:before {
+	content: "\e6a3";
+}
+.foodie-herbs:before {
+	content: "\e6a4";
+}
+.foodie-cheese-slice:before {
+	content: "\e6a5";
+}
+.foodie-cheese:before {
+	content: "\e6a6";
+}
+.foodie-pie-alt:before {
+	content: "\e6a7";
+}
+.foodie-foodie-36:before {
+	content: "\e6a8";
+}
+.foodie-corn-alt-2:before {
+	content: "\e6a9";
+}
+.foodie-mushroom:before {
+	content: "\e6aa";
+}
+.foodie-mushroom-alt:before {
+	content: "\e6ab";
+}
+.foodie-thing-alt-4:before {
+	content: "\e6ac";
+}
+.foodie-section:before {
+	content: "\e6ad";
+}
+.foodie-half:before {
+	content: "\e6ae";
+}
+.foodie-lemon:before {
+	content: "\e6af";
+}
+.foodie-orange:before {
+	content: "\e6b0";
+}
+.foodie-thing-alt-5:before {
+	content: "\e6b1";
+}
+.foodie-pear:before {
+	content: "\e6b2";
+}
+.foodie-thing-alt-6:before {
+	content: "\e6b3";
+}
+.foodie-apple-small:before {
+	content: "\e6b4";
+}
+.foodie-onion-alt:before {
+	content: "\e6b5";
+}
+.foodie-pear-alt:before {
+	content: "\e6b6";
+}
+.foodie-apple-large:before {
+	content: "\e6b7";
+}
+.foodie-pineapple:before {
+	content: "\e6b8";
+}
+.foodie-grapes:before {
+	content: "\e6b9";
+}
+.foodie-pottle:before {
+	content: "\e6ba";
+}
+.foodie-pottle-alt:before {
+	content: "\e6bb";
+}
+.foodie-banana:before {
+	content: "\e6bc";
+}
+.foodie-coffee-bean:before {
+	content: "\e6bd";
+}
+.foodie-watermelon:before {
+	content: "\e6be";
+}
+.foodie-sweed:before {
+	content: "\e6bf";
+}
+.foodie-bone-alt:before {
+	content: "\e6c0";
+}
+.foodie-meal-time:before {
+	content: "\e6c1";
+}
+.foodie-serving-dish:before {
+	content: "\e6c2";
+}
+.foodie-birthday-cake:before {
+	content: "\e6c3";
+}
+.foodie-pot-large:before {
+	content: "\e6c4";
+}
+.foodie-bowl:before {
+	content: "\e6c5";
+}
+.foodie-lolly-pop:before {
+	content: "\e6c6";
+}
+.foodie-bento-box:before {
+	content: "\e6c7";
+}
